@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "create_bullet",
+  "name": "spawn_bullet",
   "tags": [],
   "resourceType": "GMScript",
 }

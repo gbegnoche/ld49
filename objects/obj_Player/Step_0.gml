@@ -13,6 +13,17 @@ if (keyboard_check(ord("A"))) x -= spd;
 if (keyboard_check(ord("S"))) y += spd;
 if (keyboard_check(ord("D"))) x += spd;
 
+if (x < 0) x = 0;
+if (x > room_width) x = room_width;
+if (y < 0) y = 0;
+if (y > room_height) y = room_height;
+
 if (keyboard_check_pressed(vk_space)) {
-	create_bullet(point_array[0].xx, point_array[0].yy);
+	spawn_bullet(point_array[0].xx, point_array[0].yy);
+}
+
+
+if (keyboard_check_pressed(ord("F"))) {
+	print("press");
+	ins_expand_actor(id, 2, 1.2);
 }
