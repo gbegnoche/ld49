@@ -11,3 +11,5 @@ if (instance_exists(obj_Bullet)) {
 }
 
 y += spd;
+
+if (y > room_height + 20) instance_destroy();
