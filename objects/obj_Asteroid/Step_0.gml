@@ -4,6 +4,10 @@ if (instance_exists(obj_Bullet)) {
 			if (other.cols[i] == id) {
 				obj_Game.scr += 10;
 				obj_Game.kill_counter++;
+				audio_play_sound(other.death_sfx, 10, false);
+				for (var i = 0; i < irandom_range(2, 4); i++) {
+					instance_create_depth(x, y, 0, obj_Debris);
+				}
 				instance_destroy(id);
 				instance_destroy(other.id);
 			}

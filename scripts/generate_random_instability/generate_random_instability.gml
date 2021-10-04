@@ -1,6 +1,7 @@
 function generate_random_instability() {
-	var type = irandom(16);
-	//var type = 16;
+	audio_play_sound(sfx_Instability, 10, false);
+	var type = irandom(18);
+	//var type = 18;
 	switch(type) {
 		case 0:
 			ins_actor_change_color(obj_Player, random_color());
@@ -16,7 +17,7 @@ function generate_random_instability() {
 			spawn_floating_text("player expanded by " + string(factor));
 			break;
 		case 3:
-			var factor = random_range(1.1, 3);
+			var factor = random_range(1.1, 2);
 			ins_actor_contract(obj_Player, factor, random_range(1.01, 1.4));
 			spawn_floating_text("player shrunk by " + string(factor));
 			break;
@@ -80,9 +81,12 @@ function generate_random_instability() {
 			spawn_floating_text("player speed x" + string(spd));
 			break;
 		case 17:
-			//broken!
 			ins_asteroid_cycle_color();
-			spawn_floating_text("");
+			spawn_floating_text("asteroid party mode!");
+			break;
+		case 18:
+			ins_enemy_cycle_color();
+			spawn_floating_text("enemy party mode!");
 			break;
 		default:
 			break;

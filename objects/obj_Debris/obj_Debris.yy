@@ -5,8 +5,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_Hazard",
-    "path": "objects/obj_Hazard/obj_Hazard.yy",
+    "name": "obj_Actor",
+    "path": "objects/obj_Actor/obj_Actor.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,20 +23,20 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
-    {"varType":0,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spdx","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":5,"value":"sfx_Explosion","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"death_sfx","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"alpha","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [
-    {"propertyId":{"name":"spd","path":"objects/obj_Actor/obj_Actor.yy",},"objectId":{"name":"obj_Actor","path":"objects/obj_Actor/obj_Actor.yy",},"value":"random_range(1, 6)","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"spd","path":"objects/obj_Actor/obj_Actor.yy",},"objectId":{"name":"obj_Actor","path":"objects/obj_Actor/obj_Actor.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Asteroid",
+  "name": "obj_Debris",
   "tags": [],
   "resourceType": "GMObject",
 }

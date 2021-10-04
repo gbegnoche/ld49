@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sng_MainThemeGlitchest.mp3",
-  "duration": 51.25221,
+  "soundFile": "sfx_Instability.wav",
+  "duration": 1.021905,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sng_MainThemeGlitchest",
+  "name": "sfx_Instability",
   "tags": [],
   "resourceType": "GMSound",
 }

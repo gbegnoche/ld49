@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sng_MainThemeGlitchest.mp3",
-  "duration": 51.25221,
+  "soundFile": "sfx_Explosion.wav",
+  "duration": 0.331429,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sng_MainThemeGlitchest",
+  "name": "sfx_Explosion",
   "tags": [],
   "resourceType": "GMSound",
 }

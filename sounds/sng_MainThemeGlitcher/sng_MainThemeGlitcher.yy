@@ -13,8 +13,8 @@
   "soundFile": "sng_MainThemeGlitcher.mp3",
   "duration": 51.25221,
   "parent": {
-    "name": "ld49",
-    "path": "ld49.yyp",
+    "name": "Sounds",
+    "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "sng_MainThemeGlitcher",

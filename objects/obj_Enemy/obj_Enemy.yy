@@ -31,6 +31,7 @@
   ],
   "overriddenProperties": [
     {"propertyId":{"name":"spd","path":"objects/obj_Actor/obj_Actor.yy",},"objectId":{"name":"obj_Actor","path":"objects/obj_Actor/obj_Actor.yy",},"value":"3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"death_sfx","path":"objects/obj_Asteroid/obj_Asteroid.yy",},"objectId":{"name":"obj_Asteroid","path":"objects/obj_Asteroid/obj_Asteroid.yy",},"value":"sfx_EnemyDeath","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Objects",

@@ -2,6 +2,7 @@ if (instance_exists(obj_Hazard)) {
 	with (obj_Hazard) {
 		for (var i = 0; i < array_length(other.cols); i++) {
 			if (other.cols[i] == id) {
+				audio_play_sound(sfx_PlayerDeath, 10, false);
 				instance_destroy(other.id);
 				room_goto(rm_GameOver);
 			}

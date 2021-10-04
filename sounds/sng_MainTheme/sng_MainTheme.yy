@@ -13,8 +13,8 @@
   "soundFile": "sng_MainTheme.mp3",
   "duration": 51.2783661,
   "parent": {
-    "name": "ld49",
-    "path": "ld49.yyp",
+    "name": "Sounds",
+    "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "sng_MainTheme",
