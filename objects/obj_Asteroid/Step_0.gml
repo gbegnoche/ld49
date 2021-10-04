@@ -10,9 +10,9 @@ if (instance_exists(obj_Bullet)) {
 	}
 }
 
-y += spd;
+y += spd * spdx;
 
 if (y > room_height + 20) {
-	generate_random_instability();
+	//generate_random_instability();
 	instance_destroy();
 }

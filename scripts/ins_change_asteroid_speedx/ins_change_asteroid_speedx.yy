@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "create_instability",
+  "name": "ins_change_asteroid_speedx",
   "tags": [],
   "resourceType": "GMScript",
 }

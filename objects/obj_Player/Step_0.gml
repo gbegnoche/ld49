@@ -3,6 +3,7 @@ if (instance_exists(obj_Hazard)) {
 		for (var i = 0; i < array_length(other.cols); i++) {
 			if (other.cols[i] == id) {
 				instance_destroy(other.id);
+				room_goto(rm_GameOver);
 			}
 		}
 	}
@@ -23,7 +24,7 @@ if (keyboard_check_pressed(vk_space)) {
 }
 
 
-//if (keyboard_check_pressed(ord("F"))) {
-//	print("press");
-//	ins_actor_cycle_color(id, 10);
-//}
+if (keyboard_check_pressed(ord("F"))) {
+	print("press");
+	generate_random_instability();
+}
