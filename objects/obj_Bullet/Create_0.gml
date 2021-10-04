@@ -1,3 +1,5 @@
+event_inherited();
+
 point_index = [
 	{
 		xx: 0,

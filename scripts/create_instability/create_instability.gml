@@ -4,5 +4,6 @@ function create_instability() {
 			return 0;
 		},
 		complete: false,
+		actor: 0,
 	};
 }

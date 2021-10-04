@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "actor_expand",
+  "name": "ins_actor_expand_oscillate",
   "tags": [],
   "resourceType": "GMScript",
 }

@@ -11,4 +11,4 @@ if (instance_exists(obj_Player)) {
 	}
 }
 
---attack_timer;
+attack_timer--;

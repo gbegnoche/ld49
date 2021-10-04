@@ -19,11 +19,11 @@ if (y < 0) y = 0;
 if (y > room_height) y = room_height;
 
 if (keyboard_check_pressed(vk_space)) {
-	spawn_bullet(point_array[0].xx, point_array[0].yy);
+	spawn_bullet(point_array[0].xx, point_array[0].yy, bullet_size, bullet_speed, bullet_color);
 }
 
 
-if (keyboard_check_pressed(ord("F"))) {
-	print("press");
-	ins_expand_actor(id, 2, 1.2);
-}
+//if (keyboard_check_pressed(ord("F"))) {
+//	print("press");
+//	ins_actor_cycle_color(id, 10);
+//}
