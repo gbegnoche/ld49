@@ -3,6 +3,7 @@ if (instance_exists(obj_Bullet)) {
 		for (var i = 0; i < array_length(other.cols); i++) {
 			if (other.cols[i] == id) {
 				obj_Game.scr += 10;
+				obj_Game.kill_counter++;
 				instance_destroy(id);
 				instance_destroy(other.id);
 			}
@@ -13,6 +14,6 @@ if (instance_exists(obj_Bullet)) {
 y += spd * spdx;
 
 if (y > room_height + 20) {
-	//generate_random_instability();
+	increment_unstable_level();
 	instance_destroy();
 }
